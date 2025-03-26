@@ -1,6 +1,6 @@
-function NavItem() {
+function NavItem({text}) {
   return (
-    <li className="nav__item">NavItem</li>
+    <li className="nav__item">{text}</li>
   )
 }
 
